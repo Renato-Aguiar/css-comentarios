@@ -1,0 +1,96 @@
+html, body{
+    display: flex;
+    background-color: #d6d4e2;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+    
+
+}
+#menu{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    overflow-wrap:break-word;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10%;
+
+
+}
+.caixa {
+  display: flex;
+  height: 10%;
+  background-color: aliceblue;
+  overflow: hidden;
+  border-radius: 20px;
+
+
+}
+#foto{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+#foto img{
+    height: 50%;
+    margin: 20px;
+}
+#inf{
+    background-color: rgb(253, 253, 253);
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow: hidden; 
+    width: 85%;
+
+
+    
+
+
+}
+.name {
+
+    margin: 20px;
+    margin-bottom: 0;
+    height: 20%;
+    
+
+
+}
+.commit {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 10;
+    height: auto;
+    margin-right: 16%;
+    
+}
+#inter{
+    height: 7%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    background-color: aliceblue;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#react{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+#react img{
+    height: 30%;
+}
+#dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    
+}
